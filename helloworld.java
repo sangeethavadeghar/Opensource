@@ -7,4 +7,8 @@ c class JavaExample {
         for(int i=0; i<arr.length; i++){
         	total = total + arr[i];
         }
-
+        /* arr.length returns the number of elements 
+         * present in the array
+         */
+        double average = total / arr.length;
+        
